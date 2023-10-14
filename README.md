@@ -60,16 +60,16 @@ Proje 3:
 
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 
-root =6
-       6                   root 6 olduğu için:
-    /      \               7>6 (7 sağa)
- 1  5      7  8            5<6 (5 sola)
-  \       /                1<5 (1 sola) 
-   3      6                8>7 (8 sağa) 
-  / \    /  \              3>1 (3 sağa)
-0    4   2   9             6<7 (6 sola)
+root 6:                   
+
+root 6 olduğu için:
+                           7>6 (7 sağa)
+                           5<6 (5 sola)
+                           1<5 (1 sola) 
+                           8>7 (8 sağa) 
+                           3>1 (3 sağa)
+                           6<7 (6 sola)
                            0<3 (0 sola)
                            9>6 (9 sağa)
                            4>3 (4 sağa)
                            2<6 (2 sola)
-  
