@@ -48,7 +48,7 @@ Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 [11][16][21]-------------------------[8][12][22]
               [8,11,12,16,21,22]
 
-Big-O gösterimini yazınız.
+Big-O gösterimini yazınız:
 merge sort için her zaman O(nlogn)
 
 --------------------------------------------------------------------------------------------------------------------
@@ -62,14 +62,7 @@ Proje 3:
 
 root 6:                   
 
-root 6 olduğu için:
-                           7>6 (7 sağa)
-                           5<6 (5 sola)
-                           1<5 (1 sola) 
-                           8>7 (8 sağa) 
-                           3>1 (3 sağa)
-                           6<7 (6 sola)
-                           0<3 (0 sola)
-                           9>6 (9 sağa)
-                           4>3 (4 sağa)
-                           2<6 (2 sola)
+root 6 olduğu için: 
+
+
+7>6 (7 sağa), 5<6 (5 sola), 1<5 (1 sola), 8>7 (8 sağa), 3>1 (3 sağa), 6<7 (6 sola), 0<3 (0 sola), 9>6 (9 sağa), 4>3 (4 sağa), 2<6 (2 sola)
